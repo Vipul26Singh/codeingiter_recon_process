@@ -13,7 +13,7 @@ class Reconcilation extends BaseCommand
     private $db;
     private $job_id = null;
     private $table_name = TRXN_TABLENAME;
-    private $row_per_batch = 100000;
+    private $row_per_batch = 10000;
     private $max_batch_per_run = 20;
     private $enable_log = True;
     private $enable_updated_log = false;
