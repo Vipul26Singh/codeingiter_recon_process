@@ -6,7 +6,7 @@ use CodeIgniter\CLI\BaseCommand;
 class Reconcilation extends BaseCommand
 {
     protected $group = 'cron';
-    protected $name = 'recon'.TRXN_TABLENAME;
+    protected $name = 'recon:'.TRXN_TABLENAME;
     protected $description = 'Reconcile the ' . TRXN_TABLENAME . ' database.';
 
 
