@@ -1,0 +1,7 @@
+<?php
+
+define("DB_HOSTNAME", "localhost");
+define("DB_PASSWORD", "");
+define("DB_USERNAME", "");
+define("DB_DATABASE", "");
+define("TRXN_TABLENAME", "oz_money_trnx");
